@@ -8,7 +8,7 @@ body {
     font-size: 100%;
 }
 
-/* Heading and Hero Image */
+/* Heading and Hero Image Style*/
 .main-heading {
   color: #f9ae22;
   font-size: 2rem;
@@ -31,6 +31,16 @@ body {
   text-align: center;
   padding: 14px 230px;
 }
+
+/* Add style to the separator */
+.separator {
+  width: 68%;
+  height: 1px;
+  border-radius: 5px;
+}
+
+
+
 
 
 
