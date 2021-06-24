@@ -6,6 +6,8 @@ body {
     font-family: Playfair Display, sans-serif;;
     font-weight: 400;
     font-size: 100%;
+    color: #fafafa;
+    text-align: center;
 }
 
 /* Heading and Hero Image Style*/
@@ -37,6 +39,30 @@ body {
   width: 68%;
   height: 1px;
   border-radius: 5px;
+}
+
+/* Add style to features section */
+.sub-heading {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #f9ae22;
+}
+
+.mini-heading {
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.p-content {
+  font-size: 1rem;
+  padding-left: 21%;
+  padding-right: 21%;
 }
 
 
