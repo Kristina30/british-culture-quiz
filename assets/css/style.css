@@ -8,6 +8,34 @@ body {
     font-size: 100%;
 }
 
+/* Heading and Hero Image */
+
+.main-heading {
+  color: #f9ae22;
+  font-size: 2rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 14px 230px;
+}
+
+.hero-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.intro-paragraph {
+  color: #fafafa;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 14px 230px;
+}
+
+/* --==================== End Page Heading/Hero Image ====================-- */
+
+
 /* Add style to the Nav bar*/
 /* Add a black background color to the top navigation */
 .topnav {
@@ -30,12 +58,6 @@ body {
   .topnav a:hover {
     background-color: #f9ae22;
     color: black;
-  }
-  
-  /* Add an active class to highlight the current page */
-  .topnav a.active {
-    background-color: ;
-    color: white;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
