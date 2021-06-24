@@ -65,6 +65,25 @@ body {
   padding-right: 21%;
 }
 
+/* Add style to Instructions*/
+.paragraph-two {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-left: 21%;
+  padding-right: 21%;
+}
+
+.decoration {
+  color: #f9ae22;
+}
+
+.red-color-btn {
+  color: red;
+}
+
+.green-color-btn {
+  color: green;
+}
 
 
 
