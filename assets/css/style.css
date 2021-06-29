@@ -145,6 +145,52 @@ body {
   text-transform: uppercase;
 }
 
+/* Add style to the Quiz page answer containers*/
+.choice-answer-container {
+  display: flex;
+  color: #fafafa;
+  width: 100%;
+  min-width: 70%;
+  border-radius: 6px;
+  border: 0.1rem solid #f9ae22;
+  background-color: black;
+  margin-bottom: 1rem;
+}
+
+.choice-answer-container:hover {
+  cursor: pointer;
+  background-color: #f9ae22;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transform: scale(1.02);
+  transform: transform 100ms;
+}
+
+.choice-answer-prefix {
+    padding: 1rem 1.5rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.choice-answer-text {
+  width: 100%;
+  text-align: left;
+}
+
+.correct {
+  background-color: #0fc50f;
+  border: 0.1rem solid #2b722b;
+}
+
+.incorrect {
+  background-color: #cc0c0c;
+  border: 0.1rem solid #700404;
+}
+
+/* Add style to the Quiz page box */
+
+
+
 /* Responsive screen size*/
 
 /* Nav bar */
