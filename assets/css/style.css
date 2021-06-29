@@ -10,6 +10,35 @@ body {
     text-align: center;
 }
 
+/* Add style to the Nav bar*/
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  padding-left: 30%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f9ae22;
+  color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
 /* Heading and Hero Image Style*/
 .main-heading {
   color: #f9ae22;
@@ -42,6 +71,14 @@ body {
 }
 
 /* Add style to Instructions*/
+.sub-heading {
+  color: #f9ae22;
+  font-size: 1.8rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .paragraph-two {
   font-size: 1.5rem;
   text-align: center;
@@ -108,42 +145,9 @@ body {
   text-transform: uppercase;
 }
 
+/* Responsive screen size*/
 
-
-
-
-
-
-
-/* Add style to the Nav bar*/
-/* Add a black background color to the top navigation */
-.topnav {
-    overflow: hidden;
-    padding-left: 27%;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #f9ae22;
-    color: black;
-  }
-  
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
-    display: none;
-  }
-
+/* Nav bar */
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 720px) {
     .topnav a:not(:first-child) {display: none;}
