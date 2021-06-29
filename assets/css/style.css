@@ -41,30 +41,6 @@ body {
   border-radius: 5px;
 }
 
-/* Add style to features section */
-.sub-heading {
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  color: #f9ae22;
-}
-
-.mini-heading {
-  font-weight: bold;
-  letter-spacing: 2px;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
-}
-
-.p-content {
-  font-size: 1rem;
-  padding-left: 21%;
-  padding-right: 21%;
-}
-
 /* Add style to Instructions*/
 .paragraph-two {
   font-size: 1.5rem;
@@ -87,15 +63,12 @@ body {
 
 /* Add style to Play now section*/
 .btn {
-  display: block;
   width: 20rem;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   padding: 1rem;
   text-align: center;
   border: 0.1rem solid #f9ae22;
   margin: auto;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
   text-decoration: none;
   color: #fafafa;
   background-color: #333;
@@ -109,6 +82,32 @@ body {
   color: black;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+/* Start Footer */
+.ul-list {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+}
+
+.social-media-link a i {
+  color: #f9ae22;
+  font-size: 2rem;
+  margin: 10px;
+}
+
+
+.social-media-link a i:hover {
+  color: #fafafa;
+  font-size: 1.8rem;
+}
+
+.copyright-content {
+  color: #f9ae22;
+  text-transform: uppercase;
+}
+
 
 
 
@@ -144,7 +143,6 @@ body {
   .topnav .icon {
     display: none;
   }
-
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 720px) {
