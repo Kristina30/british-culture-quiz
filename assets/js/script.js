@@ -8,7 +8,7 @@ function myFunction() {
     }
   }
 
-  // -- Start Game Page -- //
+// -- Start Game Page -- //
 //  Variables  
 const question = document.querySelector('#question');
 const answerText = Array.from(document.querySelectorAll('.choice-answer-text'));
