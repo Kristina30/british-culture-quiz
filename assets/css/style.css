@@ -118,7 +118,10 @@ body {
   color: black;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
+.play-container
+{
+  display: inline-grid;
+}
 /* Start Footer */
 .ul-list {
   margin: 0;
@@ -308,4 +311,61 @@ margin-bottom: 0.5rem;
       display: block;
       text-align: left;
     }
+
+    .main-heading
+    {
+      padding: 10px 10px;
+    }
+    .hero-image
+    {
+      width:95%;
+    }
+    .intro-paragraph
+    {
+      padding:10px 10px;
+    }
+    .paragraph-two
+    {
+      padding-left:10px;
+      padding-right:10px;
+    }
+    .separator
+    {
+      width:95%;
+    }
+    .justify-center
+    {
+      width:99%;
+    }
+    #quiz-box
+    {
+      display: inline-block;
+    }
+
+  }
+
+  @media screen and (max-width: 1200px) {
+    
+    .main-heading
+    {
+      padding: 10px 10px;
+    }
+    .hero-image
+    {
+      width:95%;
+    }
+    .intro-paragraph
+    {
+      padding:10px 10px;
+    }
+    .paragraph-two
+    {
+      padding-left:10px;
+      padding-right:10px;
+    }
+    .separator
+    {
+      width:95%;
+    }
+
   }
