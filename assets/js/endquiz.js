@@ -23,15 +23,9 @@ let saveHighScore = e => {
     };
 
     highScores.push(score);
-
-    highScores.sort((a, b) => {
-        return b.score - a.score;
-    });
-
-    highScores.splice(6);
-
-    localStorage.setItem(`highScores`, JSON.stringify(highScores));
-    window.location.assign('https://Kristina30.io/british-culture-quiz/end-quiz.html');
-
-
 };
+
+function Redirect(pageName)
+{
+    window.location.href = pageName;
+}
