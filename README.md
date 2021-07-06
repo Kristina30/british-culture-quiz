@@ -1,59 +1,112 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# British Culture Quiz App
 
-Welcome Kristina Borisova Hadzhieva,
+This is a quiz game in regards of the British Culture. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for the user. The main goal of this project is to provide a positive emotional experience for the users.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## User Stories
 
-## Gitpod Reminders
+### As a user I want:
+* the quiz app to be very appealing to me in terms of design and feeling.
+* the introduction to help me understand the purpose of the project.
+* to be able to see some instructions on how to play, before starting the game.
+* to know whether I have selected the correct or incorrect answer with a visual response.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### As owner of the site, I want to:
+* promote my quiz app in a way that will keep existing users and attract new ones.
+* the typography in the project to look fun and engaging.
+* the project to be responsive across different resolutions.
+* the users to be navigated easily using the navigation bar and other types of links that leads to other pages inside the quiz app.
 
-`python3 -m http.server`
+## Structure of the site
 
-A blue button should appear to click: _Make Public_,
+* The Home Page has a Navbar, that links the link to the relevant sections on the Home Page. 
+* The Play Quiz link and Play now! button starts the game.
+* The navbar is responsive across different resolutions, at 720px width, it changes to a hamburger menu.
+* The iconic Hero image is placed to draw the users attention, which hopefully encourages them to have a go at playing the game.
+* The dark background throughout the project gives the effect of a Dark Mode Theme.
+* The selected answers will respond with relevant color changes to reflect the response. Correct answers will be colored in Green / Incorrect answers will be colored in Red.
+* The user can save their scores by typing their name and pressing the Save button. Score and Name will be saved in browser local storage.
+* The score updates with every answer selected. Correct answer award 200 points, Inscorrect answer give 0 with a maximum of 2000 avaibale at the end.
 
-Another blue button should appear to click: _Open Browser_.
+## Design
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Colour Scheme
+The two main colours used are CMYK Colours: #fafafa and #f9ae22.
+The Background color is #333
 
-A blue button should appear to click: _Make Public_,
+### Typography
+The Playfair Display font is used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 
 
-Another blue button should appear to click: _Open Browser_.
+### Imagery
+Imagery is very important. The large, background hero image is designed to be striking and catching the user's attention.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Features
+   * Responsive on all device sizes
+   * Interactive elements
 
-To log into the Heroku toolbelt CLI:
+### Technologies Used
+* HTML - is the basic building block for the project and to structure the content.
+* CSS - is used to style all the web content across the project.
+* JavaScript - is the main programming language used to manipulate HTML dom, and make the project interactive.
+* Google Fonts - Playfair Display font was used for this project and linked from Google Fonts.
+* Font Awesome - Font Awesome icons were used in the Footer of the Home page for Social media links.
+* Github - storing code for the project after being pushed.
+* Gitpod - development enviroment for the project.
+* Balsamiq - creating the wireframes for the project.
+* W3 School - JavaScript used to make the nav bar responsive.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Testing
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the code of my project to ensure there were no syntax errors.
+   * W3C Markup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkristina30.github.io%2Flumina-electrics%2F)
+   * W3C CSS Validator - [Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkristina30.github.io%2Flumina-electrics%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+   * JavaScript Validator - Detecting errors and potential problems in JavaScript code.
 
-## Updates Since The Instructional Video
+### Further Testing
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+When the project was deployed, I used Chrome Dev Tools to help test responsiveness. Chrome Dev Tools used to emulate the following devices,
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+* Apple Ipad
+* Apple Ipad Pro
+* Apple iPhone 5/SE
+* Apple iPhone 6/7/8
+* Apple iPhone 6/7/8 Plus
+* Apple iPhone X
+* Motorola G4
+* Samsung Galaxy Fold
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The project was manually tested on the Iphone 11 Pro, Iphone 7, Iphone X and Samsung Galaxi S21 Ultra.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The project was tested on the following browsers,
+* Google Chrome
+* Microsoft Edge
+* Mozilla Firefox
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+I used the W3C Markup Validator and W3C CSS Validator to validate my HTML and CSS. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+I used JSHint to check my JavaScript code.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Deployment procedure
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Once the webpage been fully created, I staged it to be pushed to github by using the Git version control system.
+The final step used was pushing the finished product to github.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Deploying a GitHub Repository via GitHub Pages
+* In your Repository section, I selected the Repository to I wish to deploy.
+* In the top horizontal menu, I located and clicked the Settings link.
+* Inside the Setting page, around halfway down I located the GitHub Pages Section.
+* Under the Source, I selected the None tab and change it to Master and clicked Save.
+* Finally once the page resets I scrolled back down to the GitHub Pages Section to see the following message "Your site is ready to be published at (Link to the GitHub Page Web Address)". There is the link to the published site, that I will use to submit my project and also able to access it from different devices and browsers.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Making a Local Clone
+* Find the GitHub Repository.
+* Click the Code button
+* Copy the link shown.
+* In Gitpod, change the directory to the location you would like the cloned directory to be located.
+* Type git clone, and paste the link you copied in step 3.
+* Press Enter to have the local clone created.
 
----
-
-Happy coding!
+## Acknowledgements
+I received great advice and feedback from my mentor Medale Oluwafemi. 
+I have also watched some walk through tutorials to helps me understand the logic of what types of functions would need to be used to make make quiz app functional.
+* Brian Design
+* Dev Ed
