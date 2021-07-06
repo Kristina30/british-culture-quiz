@@ -57,8 +57,8 @@ Imagery is very important. The large, background hero image is designed to be st
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the code of my project to ensure there were no syntax errors.
-   * W3C Markup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkristina30.github.io%2Flumina-electrics%2F)
-   * W3C CSS Validator - [Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkristina30.github.io%2Flumina-electrics%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+   * W3C Markup Validator - [Results]()
+   * W3C CSS Validator - [Results]()
    * JavaScript Validator - Detecting errors and potential problems in JavaScript code.
 
 ### Further Testing
